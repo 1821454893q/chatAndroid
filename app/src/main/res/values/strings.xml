@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">微助平台</string>
+    <string name="title_home">主页面</string>
+    <string name="title_dashboard">通讯录</string>
+    <string name="title_notifications">个人中心</string>
+    <string name="tips">格式说明：用户名字符大于5位小于10位 密码大于3位小于8位</string>
+    <string name="user_name">获取用户名</string>
+</resources>

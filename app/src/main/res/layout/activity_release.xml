@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#191970"
+        android:padding="13dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发布"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tx_biao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:text="标题:"
+            android:textColor="@color/wblue"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/edt_biao"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="10dp"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:maxLength="300"
+            android:padding="5dp"
+            android:paddingTop="20dp"
+            android:textColorHint="#808080"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tx_miao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:text="文字描述:"
+            android:textColor="@color/wblue"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/edt_ping"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:maxLength="300"
+            android:padding="5dp"
+            android:paddingTop="20dp"
+            android:textColorHint="#808080"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="提交"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

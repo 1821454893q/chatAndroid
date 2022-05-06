@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/showifo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/tx_user"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:layout_weight="1"
+        android:textSize="45dp" />
+
+    <ImageView
+        android:id="@+id/userhead"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/icon"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/bt_fill"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/wblue"
+        android:text="发布" />
+
+    <Button
+        android:id="@+id/bt_ba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="退出登录"
+        tools:layout_editor_absoluteY="808dp"/>
+
+</LinearLayout>
